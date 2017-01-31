@@ -1,0 +1,9 @@
+<template name="addEditPodcast">
+  <form id="addEditPodcast">
+    <label>Title</label>
+    <input type="text" name="title" placeholder="Title" value="{{editing.title}}" />
+    <label>URL</label>
+    <input type="text" name="url" placeholder="http://5by5.tv/b2w" value="{{editing.url}}" />
+    <button type="submit">{{submitButtonLabel}}</button>
+  </form>
+</template>
