@@ -3,9 +3,6 @@ import { Podcasts } from '../../collections/podcasts.js';
 import './add-edit-podcast.html';
 
 Template.addEditPodcast.helpers({
-  podcasts() {
-    return Podcasts.find();
-  },
   editing() {
     return Podcasts.findOne(Template.instance().data._id);
   },
